@@ -1,0 +1,15 @@
+kendaraan = ["alphard", "mobil", "2498cc", "hitam", "4roda"]
+print("List awal: ")
+print(kendaraan)
+
+#menambahkan harga dan tipe kendaraan di belakang
+kendaraan.append("1 miliar")
+kendaraan.append("XE CVT")
+
+#menambahkan merek kendaraan
+kendaraan.insert(2, "Toyota")
+
+print("\nlist kendaraan setelah ditambahkan :")
+print(kendaraan)
+
+
