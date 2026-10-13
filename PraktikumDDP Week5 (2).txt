@@ -1,0 +1,29 @@
+print("silakan pilih bangun datar")
+print("1. Persegi")
+print("2. Lingkaran")
+print("3. Segitiga")
+
+pilih_bangun_datar = int(input("pilih bangun datar: "))
+
+match pilih_bangun_datar:
+    case 1:
+        sisi = float(input("Masukkan sisi: "))
+        luas = sisi * sisi
+        print("Luas persegi =", luas)
+        
+    case 2:
+        jari = float(input("Masukkan jari jari: "))
+        luas = 3.14 * jari ** 2
+        print("Luas lingkaran =", luas)
+        
+    case 3:
+        alas = float(input("Masukkan alas: "))
+        tinggi = float(input("Masukkan tinggi: "))
+        luas = 0.5 * alas * tinggi
+        print("Luas segitiga=", luas)
+        
+    case _:
+        print("kamu salah pikih")
+        
+        
+   
